@@ -1,1 +1,54 @@
 @charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/pexels-josh-hild-2422461.jpg);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+}
+#lista{
+    text-align: center;
+    width: 60vw;
+    height: 80vh;
+    background-color: rgba(128, 128, 128, 0.589);
+    overflow-x: initial;
+}
+input{
+    margin: 1vh 0vh;
+    font-size: 3vh;
+    padding: 0vw 1vw;
+}
+.tarefa{
+    width: 40vw;
+    height: 5vh;
+    background-color: white;
+    margin: 1vh;
+    text-align: start;
+}
+.apagar{
+    width: 2vw;
+    height: 3vh;
+    background-color: red;
+}
+#tarefas{
+    display: grid;
+}
+.feito{
+    width: 2vw;
+    height: 3vh;
+    background-color: green;
+}
+#pontos{
+    width: 6vw;
+    height: 5vh;
+    background-color: white;
+    font-size: 3vh;
+}
