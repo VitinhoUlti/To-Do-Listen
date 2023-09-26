@@ -11,6 +11,7 @@ botao.addEventListener("click", () => {
     const lista = document.createElement("div");
     const apagar = document.createElement("div");
     const feito = document.createElement("div");
+    const pi = document.createElement("p");
 
     const texto = document.createTextNode(tarefa);
     const textoapag = document.createTextNode("🗑️");
@@ -20,15 +21,17 @@ botao.addEventListener("click", () => {
     apagar.appendChild(textoapag);
     feito.appendChild(textofeito);
 
-    listas.appendChild(lista);
-    listas.appendChild(apagar);
-    listas.appendChild(feito);
+    pi.appendChild(lista);
+    pi.appendChild(apagar);
+    pi.appendChild(feito);
+    listas.appendChild(pi);
 
     lista.classList.add("tarefa");
     apagar.classList.add("apagar");
     feito.classList.add("feito");
 
     tarefabotao.value = '';
+    pi.style.display = 'flex';
 
     apagar.addEventListener("click", () => {
         lista.remove();

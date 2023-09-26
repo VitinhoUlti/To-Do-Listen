@@ -34,7 +34,7 @@ input{
     text-align: start;
 }
 .apagar{
-    width: 2vw;
+    width: 3vw;
     height: 3vh;
     background-color: red;
 }
@@ -42,13 +42,11 @@ input{
     display: grid;
 }
 .feito{
-    width: 2vw;
+    width: 3vw;
     height: 3vh;
     background-color: green;
 }
 #pontos{
-    width: 6vw;
-    height: 5vh;
     background-color: white;
     font-size: 3vh;
 }
